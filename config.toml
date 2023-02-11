@@ -4,13 +4,15 @@ title = 'Golang Tutorial'
 theme = "hugo-theme-learn"
 author = "Mo Really"
 
-landingPageURL = "/"
-landingPageName = "<i class='fas fa-home'></i> Home Page"
 
 [params]
-  # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "blue"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-tags'></i> Tags"
+url = "/tags"
+weight = 30
 
