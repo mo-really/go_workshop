@@ -13,4 +13,3 @@ You will also need a text editor or IDE to write and edit your code.
 
 1. [VS Code](https://code.visualstudio.com/)
 2. [GoLand](https://www.jetbrains.com/go/)
-3. [Atom](https://atom.io/)
