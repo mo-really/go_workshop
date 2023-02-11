@@ -1,0 +1,16 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Golang Tutorial'
+theme = "hugo-theme-learn"
+author = "Mo Really"
+
+landingPageURL = "/"
+landingPageName = "<i class='fas fa-home'></i> Home Page"
+
+[params]
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "blue"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
